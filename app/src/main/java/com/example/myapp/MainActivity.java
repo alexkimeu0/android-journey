@@ -2,6 +2,7 @@ package com.example.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btn = (Button)findViewById(R.id.btn);
+        Button gestBtn = (Button)findViewById(R.id.gestures);
         TextView txt = (TextView)findViewById(R.id.txt);
 
         // Set click listener on the button
@@ -35,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+        gestBtn.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, Gestures.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

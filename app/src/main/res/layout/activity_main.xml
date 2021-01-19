@@ -35,6 +35,17 @@
             android:padding="5dp"
             android:backgroundTint="#000"
             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn"
+            android:layout_marginTop="200dp"
+            android:text="@string/gestures"
+            android:padding="5dp"
+            android:id="@+id/gestures"
+            />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

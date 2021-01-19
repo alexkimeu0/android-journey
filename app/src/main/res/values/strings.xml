@@ -2,4 +2,6 @@
     <string name="app_name">MyApp</string>
     <string name="btn">Click</string>
     <string name="txt">What the hell!!</string>
+    <string name="message">Check this out!</string>
+    <string name="gestures">Gestures</string>
 </resources>
