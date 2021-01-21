@@ -4,4 +4,7 @@
     <string name="txt">What the hell!!</string>
     <string name="message">Check this out!</string>
     <string name="gestures">Gestures</string>
+    <string name="btnText">DANK MEME BRO</string>
+    <string name="topText">Top Text</string>
+    <string name="bottomText">Bottom Text</string>
 </resources>
