@@ -1,3 +1,4 @@
+
 package com.example.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -75,5 +76,11 @@ public class Gestures extends AppCompatActivity implements GestureDetector.OnGes
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
         txtMessage.setText("On Fling!");
         return true;
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        this.gestureDetector.onTouchEvent(event);
+        return super.onTouchEvent(event);
     }
 }
